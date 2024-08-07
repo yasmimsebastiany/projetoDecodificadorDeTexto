@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #F3F5FC;
+}
+
+#logoAlura {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 120px;
+    height: 48px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+main {
+    display: flex;
+}
+
+#inputTexto {
+    width: 680px;
+    /*min-height: 48px;*/
+    height: 288px;
+    margin-top: 80px;
+    margin-left: 240px;
+    color: #0A3871;
+    border: none; 
+    outline: none; 
+    background: none; 
+    padding: 0; 
+    box-shadow: none; 
+    appearance: none;
+    font-size: 32px; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400; 
+    line-height: 48px; 
+    resize: none; /* Remove a capacidade de redimensionar */
+    overflow: hidden; /* Esconde o overflow para evitar barra de rolagem */
+}
+
+textarea::placeholder {
+    color: #0A3871;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+#aviso {
+    /*position: absolute;*/
+    width: 252px;
+    height: 18px;
+    margin-left: 240px;
+    margin-top: 395px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    color: #495057;
+    display: flex;
+    gap: 8px;
+}
+
+#aviso img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#botoes {
+    width: 680px;
+    height: 67px;
+    margin-top: 16px;
+    margin-left: 240px;
+    display: flex;
+    gap: 24px;
+}
+
+#botaoCriptografar {
+    width: 329px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    border: none;
+}
+
+#botaoDescriptografar {
+    width: 329px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    border: 1px solid #0A3871;
+}
+
+#section2 {
+    width: 400px;
+    height: 944px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    box-sizing: content-box;
+
+}
+
+#imageMeninaCuriosa img {
+    width: 336px;
+    height: 304px;
+    margin-top: 243px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    /*box-sizing: content-box;*/
+}
+
+#textoNenhumaMensagem {
+    width: 336px;
+    height: 122px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 243px;
+    /*box-sizing: content-box;*/
+
+}
+
+#titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #343A40;
+    line-height: 28.8px;
+    width: 336px;
+    height: 58px;
+    font-weight: bold;
+}
+
+#explicacao {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    line-height: 24px;
+    width: 336px;
+    height: 48px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img id="logoAlura" src="images/aluraLogo.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section>
+            <div>
+                <textarea id="inputTexto" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div>
+                <p id="aviso"><img src="images/bi_exclamation-circle-fill.png" alt="Exclamação" id="avisoExclamacao">Apenas letras minúsculas e sem acento.</p>
+                <div id="botoes">
+                    <button id="botaoCriptografar" onclick="decode()">Criptografar</button>
+                    <button id="botaoDescriptografar" onclick="encode()">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div id="imageMeninaCuriosa">
+                <img src="images/meninaCuriosa.png" alt="Menina curiosa">
+            </div>
+            <div id="textoNenhumaMensagem">
+                <h1 id="titulo">Nenhuma mensagem encontrada</h1>
+                <p id="explicacao">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
